@@ -1,4 +1,4 @@
-@extends('layouts.dashboard')
+@extends('layouts.adminlte3.dashboard')
 
 @section('content-header', 'شرکت دانش بنیان رایا اوج پرواز')
 
