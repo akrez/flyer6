@@ -9,14 +9,18 @@
     <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <link rel="shortcut icon" href="{{asset('favicon.ico')}}">
     <title>@yield('title', config('app.name'))</title>
-    <!-- Bootstrap 5 -->
-    <link rel="stylesheet" href="{{asset('dist/bootstrap-4.6.1-dist/css/bootstrap.min.css')}}">
     <!-- Font Sahel -->
     <link rel="stylesheet" href="{{asset('dist/vazirmatn-v32.102/Vazirmatn-font-face.css')}}">
     <!-- All -->
     <link rel="stylesheet" href="{{asset('dist/fontawesome-free-5.15.4-web/css/all.min.css')}}">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{{asset('dist/AdminLTE-3.2.0/css/adminlte.css')}}">
+    <!-- Theme RTL style -->
+    <link rel="stylesheet" href="{{asset('css/adminlte-rtl.css')}}">
+    <!-- bootstrap-rtl -->
+    <link rel="stylesheet" href="{{asset('css/bootstrap-rtl.css')}}">
     <!-- style -->
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/dashboard.css')}}">
     @yield('POS_HEAD')
 </head>
 
@@ -78,8 +82,12 @@
     <script>
         $.widget.bridge('uibutton', $.ui.button)
     </script>
-    <!-- Bootstrap 5 -->
-    <script src="{{asset('dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js')}}"></script>
+    <!-- Bootstrap 4 -->
+    <script src="{{asset('dist/bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js')}}"></script>
+    <!-- AdminLTE App -->
+    <script src="{{asset('dist/AdminLTE-3.2.0/js/adminlte.min.js')}}"></script>
+    <!-- script -->
+    <script src="{{asset('js/dashboard.js')}}"></script>
 
     @yield('POS_END')
 </body>
