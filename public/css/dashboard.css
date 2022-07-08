@@ -3,5 +3,5 @@ body {
     font-family: 'Vazirmatn' !important;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-size: 0.85rem;
+    font-size: 14px;
 }
