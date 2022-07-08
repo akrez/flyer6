@@ -1,10 +1,10 @@
 <footer class="main-footer">
+    شرکت دانش بنیان
     <strong>
-        کپی رایت &copy; 2014-2020
-        <a href="https://adminlte.io">AdminLTE.io</a>
+        رایا اوج پرواز
     </strong>
-    تمامی حقوق محفوظ می باشد.
+
     <div class="float-left d-sm-inline-block">
-        <b>نسخه</b> 3.1.0-rc
+        <b>نسخه</b> 6.1.4.16
     </div>
 </footer>
