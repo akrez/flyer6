@@ -43,6 +43,10 @@
         @endif
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
+            <section class="content-header">
+                <h1>@yield('content-header')</h1>
+                <ol class="breadcrumb">@yield('content-breadcrumb')</ol>
+            </section>
             <!-- Main content -->
             <section class="content">
                 @yield('content')
