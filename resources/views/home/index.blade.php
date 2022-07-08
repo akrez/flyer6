@@ -1,1 +1,1 @@
-@extends('layouts.dashboard')
+@extends('layouts.adminlte2.dashboard')
