@@ -20,7 +20,7 @@
     <!-- bootstrap-rtl -->
     <link rel="stylesheet" href="{{asset('css/bootstrap-rtl.css')}}">
     <!-- style -->
-    <link rel="stylesheet" href="{{asset('css/dashboard.css')}}">
+    <link rel="stylesheet" href="{{asset('css/adminlte3.css')}}">
     @yield('POS_HEAD')
 </head>
 
@@ -70,7 +70,7 @@
     <!-- AdminLTE App -->
     <script src="{{asset('dist/AdminLTE-3.2.0/js/adminlte.min.js')}}"></script>
     <!-- script -->
-    <script src="{{asset('js/dashboard.js')}}"></script>
+    <script src="{{asset('js/adminlte3.js')}}"></script>
 
     @yield('POS_END')
 </body>
