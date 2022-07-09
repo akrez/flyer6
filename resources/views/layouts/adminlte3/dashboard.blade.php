@@ -28,9 +28,9 @@
     @yield('POS_BEGIN')
     <div id="app" class="wrapper">
         <!-- Navbar -->
-        @include('layouts.adminlte3.navbar')
+        @include('layouts.adminlte2.navbar')
         <!-- Main Sidebar Container -->
-        @include('layouts.adminlte3.sidebar')
+        @include('layouts.adminlte2.sidebar')
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <div class="content-header">
@@ -54,7 +54,7 @@
             </section>
         </div>
         <!-- /.content-wrapper -->
-        @include('layouts.adminlte3.footer')
+        @include('layouts.adminlte2.footer')
     </div>
     <!-- ./wrapper -->
     <!-- jQuery -->

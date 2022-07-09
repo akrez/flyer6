@@ -1,4 +1,4 @@
-@extends('layouts.adminlte3.dashboard')
+@extends('layouts.adminlte2.dashboard')
 
 @section('title', __('Register'))
 
