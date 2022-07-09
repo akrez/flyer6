@@ -16,9 +16,9 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="{{asset('dist/AdminLTE-3.2.0/css/adminlte.css')}}">
     <!-- Theme RTL style -->
-    <link rel="stylesheet" href="{{asset('css/adminlte-rtl.css')}}">
+    <link rel="stylesheet" href="{{asset('dist/AdminLTE-3-rtl/adminlte-rtl.css')}}">
     <!-- bootstrap-rtl -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap-rtl.css')}}">
+    <link rel="stylesheet" href="{{asset('dist/bootstrap-4-rtl-dist/bootstrap-rtl.css')}}">
     <!-- style -->
     <link rel="stylesheet" href="{{asset('css/adminlte3.css')}}">
     @yield('POS_HEAD')

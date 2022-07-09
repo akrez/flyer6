@@ -16,12 +16,12 @@
     <!-- Bootstrap-3 -->
     <link rel="stylesheet" href="{{asset('dist/bootstrap-3.4.1-dist/css/bootstrap.min.css')}}">
     <!-- bootstrap-rtl -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap-rtl.min.css')}}">
+    <link rel="stylesheet" href="{{asset('dist/bootstrap-3.3.4-rtl-dist/bootstrap-rtl.min.css')}}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{asset('dist/AdminLTE-2/css/adminlte.min.css')}}">
-    <link rel="stylesheet" href="{{asset('dist/AdminLTE-2/css/_all-skins.min.css')}}">
+    <link rel="stylesheet" href="{{asset('dist/AdminLTE-2-rtl/css/adminlte.min.css')}}">
+    <link rel="stylesheet" href="{{asset('dist/AdminLTE-2-rtl/css/_all-skins.min.css')}}">
     <!-- Bootstrap-Social -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap-social.css')}}">
+    <link rel="stylesheet" href="{{asset('dist/bootstrap-social-rtl/bootstrap-social.css')}}">
     <!-- style -->
     <link rel="stylesheet" href="{{asset('css/adminlte2.css')}}">
     @yield('POS_HEAD')
@@ -69,7 +69,7 @@
     <!-- Bootstrap 3 -->
     <script src="{{asset('dist/bootstrap-3.4.1-dist/js/bootstrap.min.js')}}"></script>
     <!-- AdminLTE App -->
-    <script src="{{asset('dist/AdminLTE-2/js/adminlte.min.js')}}"></script>
+    <script src="{{asset('dist/AdminLTE-2-rtl/js/adminlte.min.js')}}"></script>
     <!-- script -->
     <script src="{{asset('js/adminlte2.js')}}"></script>
 
