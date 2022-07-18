@@ -24,3 +24,4 @@ Auth::routes([
 
 Route::get(RouteServiceProvider::HOME, [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/excel-page', [ExcelController::class, 'index'])->name('excel-index');
+  
