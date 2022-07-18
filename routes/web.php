@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExcelController;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Route;
 
@@ -22,4 +23,4 @@ Auth::routes([
 ]);
 
 Route::get(RouteServiceProvider::HOME, [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::view('/excel-Ipage', 'excel-page');
+Route::get('/excel-page', [ExcelController::class, 'index'])->name('excel-index');
