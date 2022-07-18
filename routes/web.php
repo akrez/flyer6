@@ -22,3 +22,4 @@ Auth::routes([
 ]);
 
 Route::get(RouteServiceProvider::HOME, [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::view('/excel-Ipage', 'excel-page');

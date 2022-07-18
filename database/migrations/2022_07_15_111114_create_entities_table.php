@@ -15,11 +15,15 @@ class CreateEntitiesTable extends Migration
     {
         Schema::create('entities', function (Blueprint $table) {
             $table->string('barcode', 32)->primary();
+            $table->string('Type', 32);
             $table->string('title', 512)->nullable();
             $table->decimal('qty')->nullable();
             $table->string('place', 32)->nullable();
+            $table->timestamp('created_at');
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('deleted_at')->nullable();
             $table->text('description')->nullable();
-            $table->timestamps();
+            
         });
     }
 
