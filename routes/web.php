@@ -24,4 +24,5 @@ Auth::routes([
 
 Route::get(RouteServiceProvider::HOME, [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/excel-page', [ExcelController::class, 'index'])->name('excel-index');
+Route::post('/excel-page/import', [ExcelController::class, 'import'])->name('file-import');
   
