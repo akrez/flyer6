@@ -32,7 +32,7 @@
 
                 <li class="header">منو اصلی</li>
 
-                <li><a href="#"><i class="glyphicon glyphicon-user"></i><span> Link num.1</span></a></li>
+                <li><a href='{{url("/excel-page")}}'><i class="glyphicon glyphicon-table"></i><span>Excel</span></a></li>
 
             </ul>
 
